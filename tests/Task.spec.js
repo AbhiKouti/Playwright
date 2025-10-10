@@ -11,7 +11,7 @@
 //     await pwd.fill('Password123')
 //     await page.getByRole('button',{name:'Submit'}).click()
 //     //await expect(page.locator('//div[text()="Your username is invalid!"]')).toBeVisible()
-//                //await expect(locator).toHaveText("Your username is invalid!").toBeVisible()
+                    // await expect(loctor).toHaveText("Your username is invalid!").toBeVisible()
 //     await expect(page.locator('//div[@id="error"]')).toBeVisible()
 //     //await expect(page).toHaveURL('https://practicetestautomation.com/logged-in-successfully/')
 //     //await expect(page.locator('//p[@class="has-text-align-center"]/strong')).toHaveText('Congratulations student. You successfully logged in!')
