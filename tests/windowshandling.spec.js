@@ -6,8 +6,8 @@ test("windows Handling", async ({ browser }) => {
     const page = await context.newPage();
     await page.goto("https://www.amazon.in/");
     // await page.goto("https://www.flipkart.com/");
-    const searchbox = await page.locator("//input[@id='twotabsearchtextbox']");
-    // const searchbox=await page.locator("//input[@name='q']")
+    const searchbox = await page.locator("//input[@id='twotablesearchtextbox']");
+    // const searchbox=await page.locator("//input[@name='q']");
     await searchbox.fill("phone");
     await page.keyboard.press("Enter");
 
